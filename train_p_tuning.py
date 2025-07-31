@@ -14,7 +14,7 @@ from peft import (
 from datasets import load_dataset
 
 # 配置参数
-model_path = "path/to/your/local/qwen"  # 本地 Qwen 模型路径
+model_path = "../local/qwen"  # 本地 Qwen 模型路径
 data_path = "data/train.json"          # 训练数据路径
 output_dir = "outputs/p_tuning"        # 输出目录
 prompt_length = 20                     # 连续提示长度
